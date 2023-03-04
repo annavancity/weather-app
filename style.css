@@ -1,0 +1,82 @@
+body {
+    background-image: url("cover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: linear-gradient(rgba(233,200,200,0.3), rgba(0,0,0,0.6));
+    min-height: 100vh;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#input{
+    background-color: rgba(142,127,161,0.3);
+    border-radius: 10px;
+    border: 3px solid #cdf3a2;
+    padding: 15px;
+    font-size: 20px;
+}
+
+#input:focus {
+    background-color: white;
+}
+
+#when-where {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#city {
+    color: white;
+    font-size: 45px;
+}
+
+#date {
+    color: white;
+    font-size: 24px;
+}
+
+#now {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#temperature {
+    color: white;
+    font-size: 110px;
+    font-weight: bold;
+    text-shadow: 5px 10px black;
+    margin: 0;
+}
+
+#feelsLike {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#condition {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#variation {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+}
